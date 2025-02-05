@@ -1,7 +1,8 @@
 import os
 from dotenv import load_dotenv
-from langchain.document_loaders import TextLoader
+from langchain.document_loaders import TextLoader  
 from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.document_loaders import TextLoader 
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Pinecone
 from langchain.llms import HuggingFaceHub
