@@ -6,7 +6,7 @@ def load_chatbot():
     return chatbot
 
 import streamlit as st
-bot = ChatBot()
+bot = load_chatbot()
     
 st.set_page_config(page_title="Symptom-chatbot")
 with st.sidebar:
