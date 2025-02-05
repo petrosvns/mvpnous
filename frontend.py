@@ -1,7 +1,12 @@
 
-from main import ChatBot
+# Inside frontend.py
+def load_chatbot():
+    from main import ChatBot
+    chatbot = ChatBot()
+    return chatbot
+
 import streamlit as st
-bot = ChatBot()
+bot = load_chatbot()
     
 st.set_page_config(page_title="Symptom-chatbot")
 with st.sidebar:
