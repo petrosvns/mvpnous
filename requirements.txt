@@ -1,9 +1,9 @@
 streamlit
 python-dotenv
 langchain
+langchain-community
 pinecone-client
 huggingface_hub
-python-dotenv
 
 
 
