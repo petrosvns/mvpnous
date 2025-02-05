@@ -1,6 +1,0 @@
-.env
-api_keys.txt
-__pycache__/
-*.log
-
-keys.env
